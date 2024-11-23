@@ -1,11 +1,47 @@
 /* Váriáveis */
 :root {
+    --gray-200: #dddddd;
     --gray-900: #050505;
 }
 /* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: var(--gray-900);
+}
+
+body, textarea, button {
+    color: var(--gray-200);
+}
 /* Cabeçalho */
 header {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
     background-color: var(--gray-900);
+}
+header h1 {
+    color: var(--gray-200)
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav li {
+    list-style: none;
+}
+nav ul li a {
+    border: 1px solid red;
+    padding: 0.25rem;
+    margin: 0 0.25rem;
+    list-style: none;
 }
 /*-------------------*/
 /* Navegação */
