@@ -2,6 +2,7 @@
 :root {
     --gray-200: #dddddd;
     --gray-900: #050505;
+    --orange-800: #ffa500;
 }
 /* Geral */
 * {
@@ -47,3 +48,12 @@ nav ul li a {
 /* Navegação */
 /* Principal */
 /* Rodapé */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+    padding: 1rem;
+}
+/****************/
