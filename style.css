@@ -1,0 +1,13 @@
+/* Váriáveis */
+:root {
+    --gray-900: #050505;
+}
+/* Geral */
+/* Cabeçalho */
+header {
+    background-color: var(--gray-900);
+}
+/*-------------------*/
+/* Navegação */
+/* Principal */
+/* Rodapé */
