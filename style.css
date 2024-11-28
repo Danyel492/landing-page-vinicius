@@ -47,6 +47,9 @@ nav ul li a {
 /*-------------------*/
 /* Navegação */
 /* Principal */
+video {
+    background-color: aliceblue;
+}
 /* Rodapé */
 footer {
     display: flex;
